@@ -1,0 +1,483 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin:0px;
+    padding-left:auto;
+    position: relative;
+    box-sizing: border-box;
+    background:rgb(236, 249, 251);
+    
+    
+    
+}
+img{
+    
+    margin:5rem;
+    margin-top: 52px;
+    margin-bottom: 0;
+    border:5px solid white;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.157), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ h6{
+    font-size: 2.5em;
+}
+ .profile1{
+     font-size:18px; 
+     margin-top: 15px; 
+     margin-bottom: 15px;  
+}
+.profile2{
+    margin: auto 0;
+    padding-top: 0px;
+}
+h6{
+    text-align: center;
+    font-size:18px;   
+}
+nav{
+    width:100%;
+    height:80px;
+    background-color: #4f046d;
+}
+
+nav ul{
+    float: left;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding:15px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    padding:12px;
+    color:white
+}
+
+i{
+margin-right:8px;
+
+}
+
+ul li a:hover{
+color:antiquewhite;
+}
+
+.push{
+  padding-left: 15vw ;
+  padding-right: 20vw;
+}
+
+.pull{
+    padding-left: 19vw;
+}
+
+.list{
+    border: 1px solid white;
+    font-size: 20px;
+    display: inline-block;
+
+}
+
+.div1{
+   background: linear-gradient(to top,white 68%,rgb(79, 4, 109) 32%);
+   border-radius: 3%;
+   
+}
+
+.pux{
+    background: linear-gradient(to top,white 80%,rgb(79, 4, 109) 20%);
+    border-radius: 3%;
+    border: 1px;
+    border-color: black;
+}
+
+.div2 p{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    
+}
+
+.div2 {
+    background-color:bisque;  
+    font-style:normal;
+    text-align: center;
+
+
+    height: 200 px;
+}
+
+.div2 h5{
+    padding-left: 15px;
+}
+
+.div3{
+    background-color:gray;   
+}
+
+.div4{
+    background-color:greenyellow;   
+}
+.div5{
+    background-color:white;   
+}
+.div6{
+    background-color:orangered;   
+}
+
+.div8{
+    background-color:antiquewhite;   
+}
+.div9{
+    background-color:aquamarine;   
+}
+.div7,.div10,.div12, .div13{
+    background-color:none;   
+}
+.div11{
+    background-color:rgb(139, 218, 112);   
+}
+
+.div14{
+    background-color:rgb(123, 112, 218);   
+}
+
+main{
+    display: grid;
+    gap: 15px;
+    justify-content: space-around;
+    grid-template-columns:2fr 8fr 3fr ;
+    grid-template-rows: 350px 350px 160px 250px 150px;
+
+    width: 75%; margin: 50px auto;
+    border:1px rgb(240, 24, 24);   
+}
+
+.grid1{
+    display:flex;
+    justify-content: center;
+
+}
+.grid2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icons{
+    align-items: flex-start;
+    padding-top: 15px;
+    padding-bottom: 0%;
+    padding-left: 8px;
+    padding-right: 15px;
+
+}
+.be{
+    padding-right: 4%;
+}
+
+.globe{
+    padding-right: 4%;
+}
+.github{
+    padding-left: 0px;   
+}
+.position{
+    line-height:50px ;
+}
+.right{
+    padding-right: 5%;
+}
+.youtube,.spotify,.images{
+    line-height: 90px;
+}
+
+
+.div2{
+
+    background: linear-gradient(to top,white 82%,rgb(79, 4, 109) 18%);
+    border-radius: 8px;
+    border: 1px;
+    border-color: black;
+    height: 350px;
+    text-align: left;
+   
+
+  
+
+}
+
+.div2,p{
+    text-align:justify;
+}
+
+
+
+.div5 h6{
+    text-align: left;
+}
+
+.div5{
+
+    background: linear-gradient(to top,white 82%,rgb(79, 4, 109) 18%);
+    border-radius: 8px;
+    border: 1px;
+    border-color: black;
+}
+
+
+div5{
+
+    background: linear-gradient(to top,white 80%,rgb(79, 4, 109) 20%);
+    border-radius: 8px;
+    border: 1px;
+    border-color: black;
+
+}
+
+.div5 h5{
+    margin-left: 15px;
+    
+}
+
+.div5 p{
+    margin-left:80px;
+    text-align: top;
+}
+
+
+.circle{
+    background-color: rgb(79, 4, 109) ;
+    height: 25px;
+    width: 25px;
+    align-items: flex-start;
+    border-radius: 50%;
+    margin-top: -193px;
+    margin-left: 25px;
+    margin-bottom: 0%;
+    
+}
+
+.verticalline{
+    width: 1px;
+    height: 91px;
+    background-color:black;
+    margin-left: 35px;
+    margin-top: 0;
+}
+
+.circleone{
+    background-color: rgb(79, 4, 109) ;
+    height: 25px;
+    width: 25px;
+    align-items: flex-start;
+    border-radius: 50%;
+    margin-top: 0 px;
+    margin-left: 25px;
+    
+}
+
+.verticaltwo{
+    width: 1px;
+    height: 13px;
+    background-color:black;
+    margin-left: 35px;
+}
+
+
+.circletwo{
+    background-color: rgb(79, 4, 109) ;
+    height: 25px;
+    width: 25px;
+    align-items: flex-start;
+    border-radius: 50%;
+    margin-top: 1px;
+    margin-left: 25px;
+    
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+.year1{
+    text-align: left;
+}
+
+
+.div8{
+
+    background: linear-gradient(to top,white 65%,rgb(79, 4, 109) 35%);
+    border-radius: 8px;
+    border: 1px;
+    border-color: black;
+}
+
+.div8 p{
+   
+    line-height: 40px;
+    border: 6% solid black;
+    letter-spacing: 1px;
+    padding-bottom: 0%;
+    margin-left: 20px;
+    
+   
+}
+
+
+
+.div8, .p2{
+   
+    letter-spacing: 3px;
+   
+
+}
+
+.div11{
+    background: linear-gradient(to top,white 75%,rgb(79, 4, 109) 25%);
+    border-radius: 1.5%;
+}
+
+.btech,.mpc,.ssc{
+    margin-left: 80px;
+    
+
+}
+
+.circl{
+    background-color: rgb(79, 4, 109) ;
+    height: 25px;
+    width: 25px;
+    align-items: flex-start;
+    border-radius: 50%;
+    margin-top: -105px;
+    margin-left: 25px;
+    margin-bottom: 0%;
+    
+}
+
+.verticaline{
+    width: 1px;
+    height: 5px;
+    background-color:black;
+    margin-left: 35px;
+    margin-top: 0;
+}
+
+.circlene{
+    background-color: rgb(79, 4, 109) ;
+    height: 25px;
+    width: 25px;
+    align-items: flex-start;
+    border-radius: 50%;
+    margin-top: 1px;
+    margin-left: 25px;
+    
+}
+
+.verticatwo{
+    width: 1px;
+    height: 7px;
+    background-color:black;
+    margin-left: 35px;
+}
+
+
+.circlewo{
+    background-color: rgb(79, 4, 109) ;
+    height: 25px;
+    width: 25px;
+    align-items: flex-start;
+    border-radius: 50%;
+    margin-top: 1px;
+    margin-left: 25px;
+    
+}
+
+
+
+.div14{
+    
+        background: linear-gradient(to top,white 65%,rgb(79, 4, 109) 35%);
+        border-radius: 1%; 
+        
+}
+.language{
+    text-align: left;
+    margin-top: 12px;
+}
+
+.one{
+    border: 3px solid black;
+    font-family: 20px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.two{
+    border: 3px solid black;
+    font-family: 20px;
+    padding: 10px;
+    padding-bottom: 0;
+    display: inline-block;
+}
+        
+
+.div3{
+    background:rgb(236, 249, 251);
+}
+
+.div6{
+
+    background: linear-gradient(to top,white 80%,rgb(79, 4, 109) 20%);
+
+    border-radius: 2%; 
+    
+    
+
+}
+
+.ul{
+    margin-left: px;
+}
+.div9{
+    width: 250px;
+    height: 230px;
+    height: px;
+    background-color: white;
+    text-align:center;
+}
+
+.div14{
+
+    
+    background: linear-gradient(to top,white 75%,rgb(79, 4, 109) 25%);
+    
+    
+    border-radius: 1%; 
+    
+    height: 230px;
+}
+
+.english,.french,.spanish,.hindi{
+    margin-left: 75px;
+}
+
+
